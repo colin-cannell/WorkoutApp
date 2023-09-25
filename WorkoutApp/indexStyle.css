@@ -1,0 +1,93 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.top-bar{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.top-bar-button{
+    cursor: pointer;
+    height: 25px;
+    font-size: 15px;
+}
+
+#date{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 18px;
+}
+
+#title{
+    text-align: center;
+    font-size: 18px;
+}
+
+#workout-info{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: fit-content;
+    word-wrap: break-word;
+}
+
+#daily-info{
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+#button-container{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: large;
+    cursor: pointer;
+}
+
+table, td, th{
+    border:1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.daily-info{
+    height: 20px;
+}
+
+#main-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+textarea{
+    border: 2px solid;
+    display: block;
+    margin: auto;
+    resize: none;
+    width: 200px;
+    height: 400px;
+}
